@@ -21,6 +21,12 @@ h2 {
 .row {
   justify-content: space-around; }
 
+.texto {
+  display: flex;
+  justify-content: flex-end;
+  min-height: 100vh;
+  line-height: 30px; }
+
 /* Media Queries */
 @media (max-width: 580px) {
   .container {
