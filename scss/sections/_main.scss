@@ -1,0 +1,24 @@
+/* ----- MAIN -----*/
+
+h2 {
+    font-family: $Roboto;
+  }
+  
+  .centrar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .row {
+    justify-content: space-around;
+  }
+  
+  /* Media Queries */
+  
+  @media (max-width: 580px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

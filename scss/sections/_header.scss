@@ -1,0 +1,41 @@
+/* ----------HEADER--------- */
+
+/* BANNER */
+
+.banner {
+    width: 100%;
+    padding: 9rem 3rem;
+    text-align: center;
+    background: url("/img/Banner.webp");
+    background-blend-mode: soft-light;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    h1 {
+      @extend %TituloPrincipal;
+      animation: titulo 3s 1;
+    }
+  }
+  
+  /* BUSCADOR */
+  
+  .boton-lupa {
+    color: $PaletaRosa;
+    &:hover {
+      @include hover($PaletaGris);
+    }
+  }
+  
+  /* Animacion Banner */
+  @keyframes titulo {
+    0% {
+      color: $PaletaGris;
+    }
+    30% {
+      letter-spacing: 25px;
+    }
+    85% {
+      letter-spacing: 8px;
+    }
+  }
+  

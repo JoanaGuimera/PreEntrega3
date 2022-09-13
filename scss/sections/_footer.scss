@@ -1,0 +1,10 @@
+/* -------FOOTER-------- */
+
+/* Botones */
+.color-boton {
+    background-color: $PaletaRosa;
+    color: white;
+    &:hover {
+      @include hover(black);
+    }
+  }
