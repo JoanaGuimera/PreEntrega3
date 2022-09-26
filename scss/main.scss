@@ -4,8 +4,8 @@
     box-sizing: border-box;
   }
   
-  @import "../base/variables";
-  @import "../base/extend";
+  @import "./base/variables";
+  @import "./base/extend";
   
   @import "./sections/main";
   @import "./sections/header";

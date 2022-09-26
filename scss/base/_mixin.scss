@@ -1,0 +1,5 @@
+//Mixin
+@mixin hover ($color){
+    background-color: $PaletaRosa;
+    color: $color;
+}
