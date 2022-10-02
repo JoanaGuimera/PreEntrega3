@@ -27,11 +27,30 @@ h2 {
   min-height: 100vh;
   line-height: 30px; }
 
-/* Media Queries */
-@media (max-width: 580px) {
-  .container {
-    flex-direction: column;
-    align-items: center; } }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-gap: 10px;
+  grid-template-areas: "IMG2 IMG3 IMG4" "IMG1 IMG5 IMG4" "IMG1 IMG6 IMG7"; }
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .galeria .IMG1 {
+    grid-area: IMG1; }
+  .galeria .IMG2 {
+    grid-area: IMG2; }
+  .galeria .IMG3 {
+    grid-area: IMG3; }
+  .galeria .IMG4 {
+    grid-area: IMG4; }
+  .galeria .IMG5 {
+    grid-area: IMG5; }
+  .galeria .IMG6 {
+    grid-area: IMG6; }
+  .galeria .IMG7 {
+    grid-area: IMG7; }
 
 /* ----------HEADER--------- */
 /* BANNER */
