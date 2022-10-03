@@ -1,0 +1,19 @@
+Keywords:
+-Index: Tags3D, impresiones 3D, impresora 3D, regalos, personalizado
+-Chapitas: Chapitas, perro, mascotas, nombre, gato
+-Contacto: Ayuda, preguntas, cliente, contacto, comentario
+-Identificadores: Mochila, tags, nombre, identificadores, etiquetas
+-Llaveros: Llaveros, personalizados, souvenirs, among us, pokemon
+
+Img:
+-Baje calidad de imagen del Banner
+
+Descripcion:
+-Index: Tags3D, impresiones 3D, impresora 3D, regalos, personalizado
+-Chapitas: Las chapitas identificadoras para mascotas mas originales
+-Contacto: Completa el formulario y recibi ayuda en tu compra
+-Identificadores:No pierdas mas la mochi! pedinos tu identificador
+-Llaveros:Llaveros 3D, pedinos tu diseño personalizado
+
+Titulo:
+Cambie titulos de las pages
