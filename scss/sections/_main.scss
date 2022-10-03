@@ -22,17 +22,20 @@ h2 {
 
 .galeria {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-template-rows: repeat(3, auto);
-  grid-gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: $gap-size;
   grid-template-areas:
-      "IMG2 IMG3 IMG4"
-      "IMG1 IMG5 IMG4"
-      "IMG1 IMG6 IMG7";
+    "IMG2 IMG3 IMG4"
+    "IMG1 IMG5 IMG4"
+    "IMG1 IMG6 IMG7";
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    outline: 5px solid $PaletaRosa;
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4) ;
   }
   .IMG1 {
     grid-area: IMG1;
@@ -57,3 +60,15 @@ h2 {
   }
 }
 
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+      "IMG2 IMG3"
+      "IMG1 IMG1"
+      "IMG4 IMG4"
+      "IMG5 IMG6"
+      "IMG5 IMG7";
+  }
+}
